@@ -29,6 +29,9 @@ const productSchema = mongoose.Schema(
         },
         itemType: {
             type: String
+        },
+        category: {
+            type: String
         }
     },
     {
